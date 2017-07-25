@@ -40,8 +40,8 @@ future: true
 highlight:
   enable: true
   line_number: true
-  auto_detect: false
-  tab_replace:
+  auto_detect: true
+  tab_replace: false
 
 # Category & Tag
 default_category: uncategorized
@@ -84,13 +84,13 @@ jsonContent:
       path: true
       text: false
       raw: false
-      content: false
+      content: true
       slug: false
       updated: false
       comments: false
       link: false
       permalink: false
-      excerpt: false
+      excerpt: true
       categories: false
       tags: true
 
